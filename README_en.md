@@ -25,7 +25,7 @@ uv run main.py
 
 ---
 
-## Managing Virtual Environments and Modules (Without `pyproject.toml`)
+## Managing Virtual Environments and Modules (Without `.toml`)
 
 ### 1. Create a Virtual Environment
 
@@ -79,7 +79,7 @@ uv pip freeze > requirements.txt
 
 ---
 
-## Managing Virtual Environments and Modules (With `pyproject.toml`)
+## Managing Virtual Environments and Modules (With `.toml`)
 
 ### 1. Initialize Project and Create a Virtual Environment
 
@@ -130,9 +130,9 @@ uv pip freeze > requirements.txt
 
 ---
 
-## Setting Up from an Existing `pyproject.toml`
+## Setting Up from an Existing `.toml`
 
-### 1. Sync Dependencies from `pyproject.toml`
+### 1. Sync Dependencies from `.toml`
 
 ```bash
 uv sync

@@ -15,7 +15,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 
 ---
 
-## クイックスタート: サンプルプロジェクト
+## クイックスタート
 
 ```bash
 uv init heyhey-world
@@ -25,7 +25,7 @@ uv run main.py
 
 ---
 
-## 仮想環境とモジュールの管理 (`pyproject.toml` を使用しない場合)
+## 仮想環境とモジュールの管理 (`.toml` を使用しない場合)
 
 ### 1. 仮想環境の作成
 
@@ -79,7 +79,7 @@ uv pip freeze > requirements.txt
 
 ---
 
-## 仮想環境とモジュールの管理 (`pyproject.toml` を使用する場合)
+## 仮想環境とモジュールの管理 (`.toml` を使用する場合)
 
 ### 1. プロジェクトの初期化と仮想環境の作成
 
@@ -130,9 +130,9 @@ uv pip freeze > requirements.txt
 
 ---
 
-## 既存の `pyproject.toml` を使用したセットアップ
+## 既存の `.toml` を使用したセットアップ
 
-###  1. `pyproject.toml` から依存関係を同期
+###  1. `.toml` から依存関係を同期
 
 ```bash
 uv sync
